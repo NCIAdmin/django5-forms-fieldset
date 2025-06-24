@@ -61,7 +61,7 @@ USED = False
 @register.simple_tag
 def fieldset(form, fieldsets, color='#79AEC8'):
 	logger.warning("""you are using the features of an old version, replace the tags with filters.
-	 more information on this link: https://github.com/hadpro24/django-forms-fieldset """)
+	 more information on this link: https://github.com/NCIAdmin/django5-forms-fieldset """)
 	USED = True
 	if not isinstance(fieldsets, list):
 		raise FieldsetsNotSupported("form field sets type error, it must be a list")
@@ -76,7 +76,7 @@ def fieldset(form, fieldsets, color='#79AEC8'):
 def inline_fieldset(inline_formset, color='#79AEC8', label='Inline Form'):
 	if not USED:
 		print()
-		logger.error("""WARNING: you are using the features of an old version, replace the tags with filters.\nMore information on this link: https://github.com/hadpro24/django-forms-fieldset""")
+		logger.error("""WARNING: you are using the features of an old version, replace the tags with filters.\nMore information on this link: https://github.com/NCIAdmin/django5-forms-fieldset""")
 		print()
 	LANGEAGE_DATA = {
 		'en-en': 'Add another',

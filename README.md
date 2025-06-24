@@ -1,15 +1,15 @@
-django-forms-fieldset
+django5-forms-fieldset
 ==============
-![https://github.com/hadpro24/django-forms-fieldset/actions](https://github.com/hadpro24/django-forms-fieldset/actions/workflows/test.yml/badge.svg)
-![](https://img.shields.io/pypi/v/django-forms-fieldset.svg)
-![https://pypi.org/project/django-forms-fieldset/](https://img.shields.io/pypi/pyversions/django-forms-fieldset)
+![https://github.com/NCIAdmin/django5-forms-fieldset/actions](https://github.com/NCIAdmin/django5-forms-fieldset/actions/workflows/test.yml/badge.svg)
+![](https://img.shields.io/pypi/v/django5-forms-fieldset.svg)
+![https://pypi.org/project/django5-forms-fieldset/](https://img.shields.io/pypi/pyversions/django5-forms-fieldset)
 
-Django form fieldset inspire django admin fieldset
+Django form fieldset inspire django admin fieldset (fork of original reposity by hadpro24 to support Django 5.1 and newer releases)
 
 Installation
 -----
 ```sh
-pip install django-forms-fieldset
+pip install django5-forms-fieldset
 ```
 
 Usage
@@ -136,18 +136,17 @@ def home(request):
 ```
 
 `` enjoy ``
-![Screenshot](https://github.com/hadpro24/django-forms-fieldset/blob/main/result_test.png?raw=true)
-
-## Features
-1. Fieldset django form
-2. Fieldset (tabular style) inline form
+![Screenshot](https://github.com/NCIAdmin/django5-forms-fieldset/blob/main/result_test.png?raw=true)
 
 ## Release
-	- version 1.0.2 
-		fix #6
-	- version 1.0.1
-		fix #3
+	- version 1.0.0
+		fix for Django 5.1 and newer
 
 ## Credit
-Harouna Diallo
+NCI IT Team
+Jake Morgan
+Jochen Winzer
+
+Orginal Contributor:
+	-Harouna Diallo
 =======
